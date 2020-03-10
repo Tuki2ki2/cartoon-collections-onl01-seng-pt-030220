@@ -27,7 +27,9 @@ def find_the_cheese(argument)
   while a < argument.length
     if argument.find{|i| i == cheese_types[a]}
       return cheese_types[a]
-     end
-
+elsif a +=1
+else nil
+  
+  
 return
 end
