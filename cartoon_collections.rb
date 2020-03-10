@@ -30,6 +30,4 @@ def find_the_cheese(cheese)
   elsif i +=1
   else
      return nil
-  end
-end
 end
