@@ -27,6 +27,8 @@ def find_the_cheese(cheese)
   while i < cheese.length
   if cheese == cheese.include?(cheese[i])
     return cheese[i]
-  else nil
+  elsif i +=1
+  else
+     return nil
   end
 end
