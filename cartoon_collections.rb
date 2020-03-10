@@ -26,7 +26,6 @@ def find_the_cheese(cheese)
   i = 0
   while i < cheese.length
   if cheese == cheese.find{|i| cheese[i] == cheese
-    
     return cheese[i]
   elsif i +=1
   else
