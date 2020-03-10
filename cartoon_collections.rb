@@ -29,7 +29,4 @@ def find_the_cheese(argument)
       return cheese_types[a]
 elsif a +=1
 else nil
-  
-  
-return
 end
