@@ -25,9 +25,9 @@ def find_the_cheese(argument)
   cheese_types = ["cheddar", "gouda", "camembert"]
   a = 0
   while a < argument.length
-    argument.find{|i| i == cheese_types[a]}
-    a +=1
-  end
+    if argument.find{|i| i == cheese_types[a]}
+      return cheese_types[a]
+     end
 
 return
 end
