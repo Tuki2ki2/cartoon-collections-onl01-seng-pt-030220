@@ -25,7 +25,7 @@ def find_the_cheese(cheese)
   # cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
   while i < cheese.length
-  if cheese == cheese.find{|i| cheese[i] == cheese}
+  if cheese.find{|i| cheese[i] == cheese}
     return cheese[i]
   elsif i +=1
   else
