@@ -22,7 +22,7 @@ end
 
 def find_the_cheese(argument)
   # code an argument here
-  # cheese_types = ["cheddar", "gouda", "camembert"]
-argument.find{|i| i == cheese}
+  cheese_types = ["cheddar", "gouda", "camembert"]
+argument.find{|i| i == cheese_types}
 return 
 end
