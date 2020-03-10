@@ -23,6 +23,11 @@ end
 def find_the_cheese(argument)
   # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
-argument.find{|i| i == "cheddar"| i == "gouda"|i == "camembert"}
+  a = 0 
+  while a < argument.length
+    argument.find{|i| i == cheese_types[a]}  
+    a +=1
+  end
+
 return
 end
