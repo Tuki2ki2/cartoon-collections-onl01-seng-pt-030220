@@ -20,16 +20,9 @@ def long_planeteer_calls(words)# code an argument here
 end
 end
 
-def find_the_cheese(cheese)
+def find_the_cheese(argument)
   # code an argument here
   # cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0
-  while i < cheese.length
-  if cheese.find {|i|cheese[i] == cheese}
-    return cheese[i]
-  elsif i +=1
-  else
-     return nil
-end
-end
+argument.find{|i| i == cheese}
+
 end
